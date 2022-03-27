@@ -1,0 +1,104 @@
+.larger-text {
+  font-size: 32px;
+}
+body{
+  background-color: rgb(40, 15, 65);
+}
+
+.btn{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  font-size: 30px;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  
+  border: 10px solid    0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+  
+  background-color: rgb(40, 15, 65);
+  
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #bc13fe,
+  0 0 0.8rem #bc13fe,
+  0 0 2.8rem #bc13fe,
+  inset 0 0 1.3rem #bc13fe;
+
+  animation-name: colorful;
+  animation-duration: .8s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: rgb(185, 67, 12);
+    transform: scale(1.4);
+  }
+  100% {
+    background-color: rgb(27, 23, 61);
+    transform: scale(1);
+  }
+}
+
+.btn2{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  font-size: 30px;
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  
+  border: 10px solid    0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+  
+  background-color: rgb(40, 15, 65);
+  
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #bc13fe,
+  0 0 0.8rem #bc13fe,
+  0 0 2.8rem #bc13fe,
+  inset 0 0 1.3rem #bc13fe;
+
+  animation-name: colorful2;
+  animation-duration: .8s;
+}
+
+@keyframes colorful2 {
+  0% {
+    background-color: rgb(12, 185, 90);
+    transform: scale(1.4);
+  }
+  100% {
+    background-color: rgb(27, 23, 61);
+    transform: scale(.5);
+  }
+}
